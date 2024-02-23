@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0 10px 9px rgb(187, 25, 216);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bc3dc5;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.countdown-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.countdown-bar {
+    height: 30px;
+    width: 100%;
+    background-color: #bc3dc5;
+    animation: none;
+}
+
+@keyframes countdown-animation {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
