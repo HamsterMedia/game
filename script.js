@@ -5,6 +5,7 @@ let res = ""; // начало текстовки
 let lev = ""; // переменная с текстом уровня
 let vel = 0;  // текущая скорость, кликов в секеунду
 
+//константики мои, константики
 const clickCount = document.getElementById('clickCount');
 const timerDisplay = document.getElementById('timer');
 const startButton = document.getElementById('startButton');
@@ -16,7 +17,7 @@ startButton.addEventListener('click', () => {
     timerValue = 10;
     clickCount.textContent = `Клики: ${clicks}`;
     timerDisplay.textContent = `Осталось: ${timerValue}`;
-    
+    //Вы нажимаете старт
     startButton.disabled = true;
     
     timer = setInterval(() => {
